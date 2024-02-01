@@ -1,12 +1,52 @@
+.scroll_container {
+    scroll-behavior: smooth !important;
+}
+
 #topPage {
-    max-width: 500px;
+    max-width: 800px;
     margin: auto;
+    font-size: large;
+    padding-top: 50px;
 }
 #topPage2 {
-    max-width: 500px;
+    max-width: 800px;
     margin: auto;
+    padding-top: 50px;
 }
 #bottomPage {
     max-width: 500px;
     margin: auto;
+    padding-top: 50px;
 }
+
+#navbar {
+    background: transparent;
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    top: 0px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+body{
+    background-image: linear-gradient(#00111c, #002945);
+    background-origin: content-box;
+}
+
+p {
+    color: #00406c;
+}
+
+
