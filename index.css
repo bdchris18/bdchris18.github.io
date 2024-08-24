@@ -17,6 +17,42 @@ html {
     justify-content: center;
 }
 
+.info{
+    animation: fadeIn 3s;
+    text-align: center;
+    align-self: center;
+    width: 50%;
+    height: 20%;
+    display: inline-block;
+    float: left;
+}
+
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.fun_text{
+    text-align: center;
+    align-self: center;
+    width: 50%;
+    height: 20%;
+    display: inline-block;
+    float: right;
+}
+
+.josefin-slab-title {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.h1-main{
+    transform: scale(.8, 1);
+    font-size: 5rem;
+}
+
 #introDiv {
     margin: auto;
     font-size: large;
@@ -27,16 +63,7 @@ html {
     aspect-ratio: 1/1;
     float: left;
     /* background: grey; */
-    background-color: rgb(0, 0, 0, 30%);
-}
-
-input[type="text"] {
-    color: white;
-    font-size: 16px;
-    width: 300px;
-    background: transparent;
-    border: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: rgb(0, 0, 0, 30%); */
 }
 
 #textInput:focus {
@@ -44,7 +71,7 @@ input[type="text"] {
 }
 
 #graphicDiv {
-    background-color: rgb(0, 0, 0, 30%);
+    /* background-color: rgb(0, 0, 0, 30%); */
     font-size: large;
     padding-top: 50px;
     border-color: white;
@@ -54,7 +81,7 @@ input[type="text"] {
     float: left;
     color: white;
     /* background: grey; */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     padding: 20px;
     margin-top: 200px;
     
@@ -88,7 +115,7 @@ ul {
     list-style-type: none;
     top: 0px;
     text-align: center;
-    float: left;
+    /* float: left; */
 }
 
 li {
@@ -98,30 +125,30 @@ li {
 }
 
 a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
 body{
-    background-image: linear-gradient(to right, #000000, #3a0000);
+    background-image: linear-gradient(to right, #adadad, #ffffff);
     background-origin: content-box;
 }
 
 p {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
-h1 {
-    color: white;
+/* h1 {
+    color: rgb(0, 0, 0);
     text-align: left;
     font-size: 80px;
 }
 
 h2 {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: left;
     font-size: 50px;
-}
+} */
 
